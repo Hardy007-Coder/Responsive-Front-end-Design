@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Employees</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	<link href="css/Employees.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+  	<!-- body code goes here -->
+	  
+	  <header><img src="Images/Logo.jfif" width="" height="100" alt=""/> </header>
+	  
+	  <nav>
+	  
+	    <h1>APPRAISAL SYSTEM</h1>
+		  
+	  </nav>
+	  
+  <h2>EMPLOYEES</h2>
+  <div class="container-fluid">
+    <ul id="clothingnav1" class="nav nav-tabs" role="tablist">
+      <li class="nav-item"> <a class="nav-link active" href="#home1" id="hometab1" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">Add Employees</a> </li>
+      <li class="nav-item"> <a class="nav-link" href="#paneTwo1" role="tab" id="hatstab1" data-toggle="tab" aria-controls="hats">Manage Employees</a> </li>
+      <!-- Dropdown -->
+      <li class="nav-item dropdown">
+<div class="dropdown-menu"> <a class="dropdown-item" href="#tabDropDownOne1" role="tab" id="dropdownshoestab1" data-toggle="tab" aria-controls="dropdownShoes">Dropdown Link 1</a> <a class="dropdown-item" href="#tabDropDownTwo1" role="tab" id="dropdownbootstab1" data-toggle="tab" aria-controls="dropdownBoots">Dropdown Link 2</a> </div>
+      </li>
+    </ul>
+    <!-- Content Panel -->
+    <div id="clothingnavcontent1" class="tab-content">
+      <div role="tabpanel" class="tab-pane fade show active" id="home1" aria-labelledby="hometab1">
+        <form>
+		  <div class="form-group">
+            <label for="exampleInputName">Employee Name</label>
+            <input type="name" class="form-control" id="exampleInputName" placeholder="Employee Name">
+          </div>
+			
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail" placeholder="Enter email">
+             </div>
+          
+			
+			
+		  <div class="form-group">
+            <label for="exampleInputPassword1">Create Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+			
+			
+			<div class="form-group">
+            <label for="exampleInputPassword1">Confirm Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password">
+          </div>
+			
+			
+			
+		  <div class="form-group">
+            <label for="exampleInputDivision">Division</label>
+            <input type="name" class="form-control" id="exampleInputDivision" placeholder="Division">  </div>
+			
+			
+		  <div class="form-group">
+            <label for="exampleSelectUserLevel">Select User Level</label>
+            <select class="form-control" id="SelectUserLevel" placeholder="Select User Level">
+		   <option value="Admin">Admin</option>
+           <option value="Director">Director</option>
+		   <option value="Director_General">Director General</option>
+           <option value="Senior_Member">Senior Member</option>
+           <option value="Senior/Junior_Staff">Senior Staff</option>
+           <option value="Senior/Junior_Staff">Junior Staff</option>
+           <option value="Head_Of_Division">Head Of Division</option>
+				</select>
+          </div>
+			
+			
+			
+			
+			
+		  <div class="form-group">
+            <label for="exampleReportsTo">Reports To</label>
+            <select class="form-control" id="ReportsTo" placeholder="Reports To">
+		   
+				</select>
+          </div>
+			
+			
+			
+			
+			<div class="form-group">
+            <label for="exampleInputDivision">Date</label>
+            <input type="date" class="form-control" id="exampleInputDate" placeholder="Date">  
+			</div>
+			
+			
+			
+			
+			
+			
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check to allow login</label>
+			  
+			  
+			  
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+		  
+		  
+		  
+      </div>
+      <div role="tabpanel" class="tab-pane fade" id="paneTwo1" aria-labelledby="hatstab1">
+        <p></p>
+		  
+		  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  <table width="1024" cellspacing="0" >
+  <tbody>
+    <tr>
+      <th scope="col" class="head"><h2>Employee Name</h2></th>
+      <th scope="col" class="head"><h2>Date Submitted</h2></th>
+      <th scope="col" class="head"><h2>Forms</h2></th>
+      <th scope="col" class="head"><input type="search" placeholder="Seacrch For Employee" class="search"></th>
+    </tr>
+	  
+	  
+	  
+	  <tr class="t1">
+		  <td>Irvyne Jojo Blissett</td>
+      <td>1st March 2021</td>
+      <td><a href="">Link to form</a></td>
+      <td>&nbsp;</td>
+    </tr>
+	  
+	  
+  </tbody>
+</table>
+		  
+		  
+      </div>
+      <div role="tabpanel" class="tab-pane fade" id="tabDropDownOne1" aria-labelledby="dropdownshoestab1">
+        <p>Dropdown content#1</p>
+      </div>
+      <div role="tabpanel" class="tab-pane fade" id="tabDropDownTwo1" aria-labelledby="dropdownbootstab1">
+        <p>Dropdown content#2</p>
+      </div>
+    </div>
+  </div>
+	  
+	  <br>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.4.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+	<script src="js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>

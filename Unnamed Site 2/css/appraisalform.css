@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+header {
+	background-color: hotpink;
+	height: 100px;
+	text-align: center;
+       }
+
+
+nav{
+	background-color: blue;
+	height: 50px;
+	color: white;
+	text-align: center;
+}
+
+
+
+h1 {
+	color: #FBF8F8;
+	text-align: center;
+}
+
+
+.heading2 {
+    text-align: center;
+	color: black;
+}
+
+.heading3 {
+	text-align: center;
+	color: black;
+}
+
+
+.subheading1 {
+	text-align: center;
+
+}
+
+
+
+.heading {
+	color: black;
+}
+
+
+
+
+
+.line1 {
+	
+	background-color: #000000;
+	height: 5px;
+}
+.q1 {
+	text-align: left;
+	margin-left: 10px;	
+}
+.q2 {
+	text-align: left;
+	margin-left: 10px;
+}
+.q3 {
+	text-align: left;
+	margin-left: 10px;
+}
+.q4 {
+	text-align: left;
+	margin-left: 10px;
+}
+.q5 {
+	text-align: left;
+	margin-left: 10px;
+}
+.qa {
+	text-align: left;
+	margin-left: 44px;
+
+
+
+}
+.qb {
+	text-align: left;
+	margin-left: 44px;
+}
+.qc {
+	margin-left: 44px;
+	text-align: left;
+}
+.qd {
+	text-align: left;
+	margin-left: 44px;
+}
+
+.line2 {
+	height: 5px;
+	background-color: #000000;
+	}
+.textarea {
+	width: 100%;
+	height: 200px;
+}
+.part2 {text-align: center;
+
+}
+

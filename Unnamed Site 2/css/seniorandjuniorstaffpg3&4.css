@@ -1,0 +1,39 @@
+@charset "utf-8";
+header {
+	background-color: hotpink;
+	height: 100px;
+	text-align: center;
+       }
+
+
+nav{
+	background-color: blue;
+	height: 50px;
+}
+
+
+h1 {
+	color: #FBF8F8;
+	text-align: center;
+}
+
+
+.textarea1 {
+	width: 100%;
+}
+
+
+.textarea2 {width: 100%;
+}
+
+.textarea3 {
+    width: 100%;
+}
+
+.textarea4 {
+    width: 100%;
+}
+
+.textarea5 {
+    width: 100%;
+}
